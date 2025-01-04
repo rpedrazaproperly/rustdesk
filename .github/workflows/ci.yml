@@ -17,11 +17,12 @@ on:
   push:
     branches:
       - master
+      - customize
     paths-ignore:
       - ".github/**"
       - "docs/**"
       - "README.md"
-      - "res/**"
+        # - "res/**"
       - "appimage/**"
       - "flatpak/**"
 
